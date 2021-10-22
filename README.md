@@ -1,6 +1,6 @@
 # LofiCafe - Vibe to lofi music
 
-!()[./public/demo.webm]
+<img src="./public/demo.webm" style="width:70%">
 
 ## Made with love with
 
