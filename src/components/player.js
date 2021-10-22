@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay , faAngleRight , faAngleLeft , faPause } from "@fortawesome/free-solid-svg-icons";
 import { useEffect } from "react";
@@ -21,7 +21,7 @@ const Player = ({songInfo,setSongs,id,setCurrentSong,songs, setSongInfo,audioRef
             }});
         setSongs(newSongs);
 
-    },[currentSong])
+    },[currentSong,id,setCurrentSong,setSongs,songs,audioRef,currentSong])
     //event handlers
     const playSongHandler = () => {
         if(isPlaying){

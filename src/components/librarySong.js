@@ -36,7 +36,7 @@ const LibrarySong = ({
       className={`library-song ${song.active ? "selected" : " "}`}
       alt={song.name}
     >
-      <img src={song.cover}></img>
+      <img src={song.cover} alt="song"></img>
       <div className="song-description">
         <h3>{song.name}</h3>
         <h4>{song.artist}</h4>
