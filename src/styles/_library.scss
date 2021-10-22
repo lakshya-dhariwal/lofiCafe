@@ -1,61 +1,74 @@
-.library{
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    width: 20rem;
-    height: 100%;
-    background-color: rgb(255, 255, 255);
-    overflow: scroll;
-    box-shadow: 2px 2px 50px rgb(161, 161, 161);
-    transform: translateX(-100%);
-    transition: all 0.5s ease;
-    h2{
-        padding: 2rem;
+.library {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 20rem;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  overflow: scroll;
+  box-shadow: 2px 2px 50px rgb(161, 161, 161);
+  transform: translateX(-100%);
+  transition: all 0.5s ease;
+  h2 {
+    padding: 2rem;
+    div {
+      display: flex;
+      justify-content: space-between;
+      span {
+        button {
+          background-color: white;
+          color: rgb(247, 105, 105);
+          font-size: 1.5rem;
+          border: none;
+          padding: 0.2rem;
+          cursor: pointer;
+        }
+      }
     }
+  }
 }
-.library-song{
-    display: flex;
-    
-    padding: 1rem 2rem 1rem 2rem;
-    align-items: center;
-    cursor: pointer;
-    img{
-        width: 20%;
-    }
-    &:hover{
-        background: #b7adee;
-    }
-}
-.song-description{
-    padding-left: 1rem;
-    h3{
-        font-size: 1rem;
-    }
-    h4{
-        font-size: 0.7rem;
+.library-song {
+  display: flex;
 
-
-    }
+  padding: 1rem 2rem 1rem 2rem;
+  align-items: center;
+  cursor: pointer;
+  img {
+    width: 20%;
+  }
+  &:hover {
+    background: #b7adee;
+  }
 }
-*{
-    scrollbar-width: thin;
-    scrollbar-color: rgba(155,155,155,0.5);
+.song-description {
+  padding-left: 1rem;
+  h3 {
+    font-size: 1rem;
+  }
+  h4 {
+    font-size: 0.7rem;
+  }
 }
-*::-webkit-scrollbar{
-    width: 5px;
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(155, 155, 155, 0.5);
 }
-*::-webkit-scrollbar-track{
-    background: transparent;
+*::-webkit-scrollbar {
+  width: 5px;
 }
-*::-webkit-scrollbar-thumb{
-    background-color:rgba(155,155,155,0.5);
-    border-radius: 20px;
-    border: transparent ;
+*::-webkit-scrollbar-track {
+  background: transparent;
 }
-.selected{
-    background: rgb(27, 69, 187);
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(155, 155, 155, 0.5);
+  border-radius: 20px;
+  border: transparent;
 }
-.active-library{
-    transform: translateX(0%);
-    opacity:1;
+.selected {
+  background: rgb(27, 69, 187);
+  
+}
+.active-library {
+  transform: translateX(0%);
+  opacity: 1;
 }
