@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# LofiCafe - Vibe to lofi music
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+!()[./public/demo.webm]
+
+## Made with love with
+
+- React
+- SCSS
 
 ## Available Scripts
 
