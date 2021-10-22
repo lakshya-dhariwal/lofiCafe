@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/lofiCafe/static/css/main.e2b4ae1c.chunk.css",
+    "main.js": "/lofiCafe/static/js/main.df75a989.chunk.js",
+    "main.js.map": "/lofiCafe/static/js/main.df75a989.chunk.js.map",
+    "runtime-main.js": "/lofiCafe/static/js/runtime-main.a0e49f9c.js",
+    "runtime-main.js.map": "/lofiCafe/static/js/runtime-main.a0e49f9c.js.map",
+    "static/js/2.c5aa23f4.chunk.js": "/lofiCafe/static/js/2.c5aa23f4.chunk.js",
+    "static/js/2.c5aa23f4.chunk.js.map": "/lofiCafe/static/js/2.c5aa23f4.chunk.js.map",
+    "static/js/3.7e232dd5.chunk.js": "/lofiCafe/static/js/3.7e232dd5.chunk.js",
+    "static/js/3.7e232dd5.chunk.js.map": "/lofiCafe/static/js/3.7e232dd5.chunk.js.map",
+    "index.html": "/lofiCafe/index.html",
+    "static/css/main.e2b4ae1c.chunk.css.map": "/lofiCafe/static/css/main.e2b4ae1c.chunk.css.map",
+    "static/js/2.c5aa23f4.chunk.js.LICENSE.txt": "/lofiCafe/static/js/2.c5aa23f4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0e49f9c.js",
+    "static/js/2.c5aa23f4.chunk.js",
+    "static/css/main.e2b4ae1c.chunk.css",
+    "static/js/main.df75a989.chunk.js"
+  ]
+}
